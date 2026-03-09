@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suraj Enterprises – Premium intending and general trading of milk products (butter, cheese, ghee), Indian spices, and peanuts. Quality you can taste." />
+  <title>Suraj Enterprises | Premium Food Trading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-sun">☀</span>
+        <span class="logo-text">Suraj Enterprises</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">Trusted Food Traders Since Inception</div>
+      <h1 class="hero-title reveal">
+        <span class="title-line">The Finest</span>
+        <span class="title-line gold">Indian&nbsp;Flavours,</span>
+        <span class="title-line">Delivered&nbsp;Fresh</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Intending &amp; general trading in premium dairy, authentic Indian spices &amp; quality peanuts — straight from trusted sources to your table.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#products" class="btn btn-primary">Explore Products</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-num" data-target="15">0</span><span>+</span><p>Years of Trust</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="50">0</span><span>+</span><p>Products Traded</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="200">0</span><span>+</span><p>Happy Clients</p></div>
+      </div>
+    </div>
+    <div class="hero-image-wrap reveal-right">
+      <div class="hero-img-glow"></div>
+      <img src="assets/hero_food_banner.png" alt="Premium food products by Suraj Enterprises" class="hero-img" />
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Rooted in Quality,<br /><em>Driven by Trust</em></h2>
+          <p class="about-para">
+            <strong>Suraj Enterprises</strong> is a premier intending and general trading firm specialising in the finest food commodities. We bridge producers and buyers through transparent, reliable trade — ensuring every product that carries our name meets the highest standards of purity and freshness.
+          </p>
+          <p class="about-para">
+            From the golden richness of pure ghee to the fiery depth of Indian spices, our portfolio reflects the diversity and heritage of Indian food culture. We serve wholesalers, retailers, and institutional buyers across the region.
+          </p>
+          <div class="about-tags">
+            <span class="tag">🥛 Dairy Specialists</span>
+            <span class="tag">🌶 Spice Traders</span>
+            <span class="tag">🥜 Peanut Suppliers</span>
+            <span class="tag">✅ Quality Assured</span>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="about-card-wrap">
+            <div class="about-card card-1">
+              <div class="about-icon">🏆</div>
+              <h4>Premium Grade</h4>
+              <p>Only the finest quality products pass our rigorous selection</p>
+            </div>
+            <div class="about-card card-2">
+              <div class="about-icon">🚚</div>
+              <h4>Reliable Supply</h4>
+              <p>Consistent, timely delivery from trusted source networks</p>
+            </div>
+            <div class="about-card card-3">
+              <div class="about-icon">🤝</div>
+              <h4>Honest Trade</h4>
+              <p>Transparent pricing and fair dealing with every partner</p>
+            </div>
+            <div class="about-card card-4">
+              <div class="about-icon">🌿</div>
+              <h4>Natural &amp; Pure</h4>
+              <p>No adulteration — real flavour, real nutrition</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PRODUCTS ═══ -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What We Trade</span>
+        <h2 class="section-title">Our <em>Product Categories</em></h2>
+        <p class="section-sub">A curated selection of premium food commodities — sourced responsibly and traded with integrity.</p>
+      </div>
+
+      <div class="product-tabs reveal">
+        <button class="tab-btn active" data-tab="dairy" id="tab-dairy">🥛 Dairy Products</button>
+        <button class="tab-btn" data-tab="spices" id="tab-spices">🌶 Indian Spices</button>
+        <button class="tab-btn" data-tab="peanuts" id="tab-peanuts">🥜 Peanuts</button>
+      </div>
+
+      <!-- Dairy -->
+      <div class="tab-content active" id="content-dairy">
+        <div class="product-showcase">
+          <div class="product-image-wrap reveal-left">
+            <img src="assets/dairy_product.png" alt="Premium dairy – butter, ghee, cheese" class="product-img" />
+            <div class="product-img-badge">Premium Grade</div>
+          </div>
+          <div class="product-info reveal-right">
+            <h3 class="product-title">Milk Products</h3>
+            <p class="product-desc">We trade in the finest dairy products crafted from pure, fresh milk sourced from trusted farms. Our dairy range captures the authentic flavours loved across Indian households and commercial kitchens alike.</p>
+            <div class="product-items">
+              <div class="product-item">
+                <div class="item-icon">🧈</div>
+                <div class="item-text">
+                  <h5>Pure Cow Butter</h5>
+                  <p>Creamy, fresh-churned butter — ideal for cooking, baking, and direct consumption.</p>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-icon">🧀</div>
+                <div class="item-text">
+                  <h5>Artisan Cheese</h5>
+                  <p>A range of natural cheeses — processed and aged varieties for every culinary need.</p>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-icon">✨</div>
+                <div class="item-text">
+                  <h5>Pure Desi Ghee</h5>
+                  <p>The golden elixir — slow-cooked, aromatic ghee that embodies traditional purity.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spices -->
+      <div class="tab-content" id="content-spices">
+        <div class="product-showcase">
+          <div class="product-image-wrap reveal-left">
+            <img src="assets/spices_product.png" alt="Vibrant Indian spices" class="product-img" />
+            <div class="product-img-badge">100% Pure</div>
+          </div>
+          <div class="product-info reveal-right">
+            <h3 class="product-title">Indian Spices</h3>
+            <p class="product-desc">India is the spice capital of the world, and we bring its best to you. Our spice portfolio covers the entire spectrum — from kitchen staples to exotic aromatic blends — all unadulterated and flavour-rich.</p>
+            <div class="spice-grid">
+              <div class="spice-chip">🟡 Turmeric</div>
+              <div class="spice-chip">🔴 Red Chilli</div>
+              <div class="spice-chip">🟤 Coriander</div>
+              <div class="spice-chip">⚫ Black Pepper</div>
+              <div class="spice-chip">🌱 Cumin (Jeera)</div>
+              <div class="spice-chip">🤎 Cardamom</div>
+              <div class="spice-chip">🌿 Bay Leaves</div>
+              <div class="spice-chip">🩶 Cloves</div>
+              <div class="spice-chip">🟫 Cinnamon</div>
+              <div class="spice-chip">🌾 Fenugreek</div>
+              <div class="spice-chip">🟠 Asafoetida</div>
+              <div class="spice-chip">⭐ Star Anise</div>
+              <div class="spice-chip">🟤 Mustard Seeds</div>
+              <div class="spice-chip">🌶 Kashmiri Chilli</div>
+              <div class="spice-chip">🟡 Garam Masala</div>
+              <div class="spice-chip">🔵 Nigella Seeds</div>
+            </div>
+            <p class="spice-note">…and many more whole &amp; ground spice varieties</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Peanuts -->
+      <div class="tab-content" id="content-peanuts">
+        <div class="product-showcase">
+          <div class="product-image-wrap reveal-left">
+            <img src="assets/peanuts_product.png" alt="Premium quality peanuts" class="product-img" />
+            <div class="product-img-badge">Fresh Stock</div>
+          </div>
+          <div class="product-info reveal-right">
+            <h3 class="product-title">Peanuts</h3>
+            <p class="product-desc">We source the best Kharif-season peanuts directly from cultivator networks, offering bold, fresh, and naturally flavourful groundnuts — raw, roasted, or blanched as per buyer requirements.</p>
+            <div class="product-items">
+              <div class="product-item">
+                <div class="item-icon">🥜</div>
+                <div class="item-text">
+                  <h5>Raw Groundnuts</h5>
+                  <p>Bold, fresh peanuts in shell or shelled — ideal for processing and oil extraction.</p>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-icon">🔥</div>
+                <div class="item-text">
+                  <h5>Roasted Peanuts</h5>
+                  <p>Dry-roasted to perfection — crunchy, flavourful, ready for direct snacking or trade.</p>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="item-icon">⚪</div>
+                <div class="item-text">
+                  <h5>Blanched Peanuts</h5>
+                  <p>Skin-removed, food-grade blanched peanuts for confectionery and food manufacturing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ WHY US ═══ -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Our Advantage</span>
+        <h2 class="section-title">Why Choose <em>Suraj Enterprises?</em></h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal" style="--delay:0s">
+          <div class="why-icon-wrap"><span class="why-icon">🌟</span></div>
+          <h4>Uncompromised Quality</h4>
+          <p>Every batch undergoes thorough quality checks before dispatch, ensuring you receive only the best.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.1s">
+          <div class="why-icon-wrap"><span class="why-icon">🌐</span></div>
+          <h4>Wide Trade Network</h4>
+          <p>Our extensive trading network ensures competitive pricing and consistent availability year-round.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.2s">
+          <div class="why-icon-wrap"><span class="why-icon">📦</span></div>
+          <h4>Flexible Quantities</h4>
+          <p>We accommodate orders of all sizes — from small retail batches to large-scale bulk procurement.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.3s">
+          <div class="why-icon-wrap"><span class="why-icon">💬</span></div>
+          <h4>Personalised Service</h4>
+          <p>Direct access to our team means faster responses, custom pricing, and long-term partnerships.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.4s">
+          <div class="why-icon-wrap"><span class="why-icon">🛡️</span></div>
+          <h4>Regulatory Compliance</h4>
+          <p>All products adhere to FSSAI standards, ensuring food safety and legal compliance across the chain.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:0.5s">
+          <div class="why-icon-wrap"><span class="why-icon">🔄</span></div>
+          <h4>Reliable Replenishment</h4>
+          <p>We maintain consistent supply chains so your business never faces stock disruptions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MARQUEE STRIP ═══ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-inner">
+      <span>Pure Desi Ghee</span><span class="dot">✦</span>
+      <span>Artisan Butter</span><span class="dot">✦</span>
+      <span>Premium Cheese</span><span class="dot">✦</span>
+      <span>Kashmiri Chilli</span><span class="dot">✦</span>
+      <span>Golden Turmeric</span><span class="dot">✦</span>
+      <span>Black Pepper</span><span class="dot">✦</span>
+      <span>Roasted Peanuts</span><span class="dot">✦</span>
+      <span>Garam Masala</span><span class="dot">✦</span>
+      <span>Fresh Cardamom</span><span class="dot">✦</span>
+      <span>Pure Desi Ghee</span><span class="dot">✦</span>
+      <span>Artisan Butter</span><span class="dot">✦</span>
+      <span>Premium Cheese</span><span class="dot">✦</span>
+      <span>Kashmiri Chilli</span><span class="dot">✦</span>
+      <span>Golden Turmeric</span><span class="dot">✦</span>
+      <span>Black Pepper</span><span class="dot">✦</span>
+      <span>Roasted Peanuts</span><span class="dot">✦</span>
+      <span>Garam Masala</span><span class="dot">✦</span>
+      <span>Fresh Cardamom</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Let's Do <em>Business Together</em></h2>
+        <p class="section-sub">Whether you're a wholesaler, retailer, or looking for bulk supply — we'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal" style="--delay:0s">
+          <div class="contact-icon">📍</div>
+          <h4>Our Office</h4>
+          <p>Suraj Enterprises</p>
+          <p>Mumbai, Maharashtra, India</p>
+        </div>
+        <div class="contact-card reveal" style="--delay:0.15s">
+          <div class="contact-icon">📞</div>
+          <h4>Call Us</h4>
+          <p>+91 98765 43210</p>
+          <p>+91 91234 56789</p>
+        </div>
+        <div class="contact-card reveal" style="--delay:0.3s">
+          <div class="contact-icon">📧</div>
+          <h4>Email Us</h4>
+          <p>info@surajenterprises.in</p>
+          <p>trade@surajenterprises.in</p>
+        </div>
+        <div class="contact-card reveal" style="--delay:0.45s">
+          <div class="contact-icon">⏰</div>
+          <h4>Business Hours</h4>
+          <p>Monday – Saturday</p>
+          <p>9:00 AM – 6:30 PM IST</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-sun">☀</span>
+        <span>Suraj Enterprises</span>
+      </div>
+      <p class="footer-tagline">Pure · Premium · Trusted</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2025 Suraj Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
